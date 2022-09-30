@@ -4,23 +4,210 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#03A9F4"
+    android:orientation="vertical"
     tools:context=".MenuPrincipalActivity">
 
-    <androidx.cardview.widget.CardView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        app:cardCornerRadius="10dp"
-        android:layout_margin="10dp">
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="80dp"
-            android:scaleType="centerCrop"
-            android:src="@drawable/hotel1"/>
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hotel1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Hotel com piscina e café da manhã gostoso"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hotel2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Hotel  espaçoso com café da manhã gostoso"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
 
     </LinearLayout>
-    </androidx.cardview.widget.CardView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hotel3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Hotel com banheira e vista bonita"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hotel4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Hotel com piscina e contato com a natureza"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hotel5" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Hotel de baixo d'agua, para um lazer diferente"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="180dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/hotel6" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Hotel-Risort para toda familia"
+                    android:textAlignment="center"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/borda"
+        android:text="Voltar" />
+
 </LinearLayout>
+
